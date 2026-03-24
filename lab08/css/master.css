@@ -1,0 +1,95 @@
+/* Lab08 — 自定义样式（与 Bootstrap 配合） */
+
+body {
+    margin: 0;
+}
+
+/* Logo 尺寸：避免导航栏被撑破 */
+.navbar-brand img {
+    max-height: 48px;
+    width: auto;
+    display: block;
+}
+
+.menu-item {
+    padding: 20px;
+    font-family: sans-serif;
+}
+
+.menu-item a {
+    color: black;
+    font-weight: bold;
+}
+
+.menu-color {
+    background-color: white !important;
+    box-shadow: 0px 3px 3px #aaa;
+}
+
+#banner {
+    width: 100%;
+    display: block;
+}
+
+header {
+    max-width: none;
+    width: 100%;
+}
+
+.intro-section-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.inner-text {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #1e3932;
+    color: white;
+    padding: 30px;
+}
+
+.inner-text h1 {
+    font-family: serif;
+}
+
+.inner-text button,
+.inner-text .btn {
+    border-radius: 25px;
+    padding: 10px 22px;
+}
+
+#outcome img {
+    width: 100%;
+    margin-top: 20px;
+    display: block;
+}
+
+#activities {
+    background-image: url("../images/tour-bg.jpg");
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 60px 40px;
+    margin: 40px 0;
+}
+
+#activities img {
+    width: 100%;
+    display: block;
+    margin: 15px 0 30px;
+}
+
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.footer-copy {
+    margin-top: 15px;
+    font-size: 0.95rem;
+}
