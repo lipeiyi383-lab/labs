@@ -1,0 +1,25 @@
+/* Lab 7 custom styles */
+
+.img300 {
+  width: 300px;
+  max-width: 100%;
+  height: auto;
+}
+
+header img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+section {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+footer {
+  padding-top: 1rem;
+  padding-bottom: 1.5rem;
+  border-top: 1px solid #dee2e6;
+  margin-top: 1rem;
+}
